@@ -1,18 +1,76 @@
-version: 1
-extends:
-- https://raw.githubusercontent.com/impact-scholars/impact-scholars.github.io/v0.2.0/nexus.yml
-- https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.2.0/isp-micropublication-2025.yml
-
 project:
-  authors: []
+  # Uncomment and fill when published
+  # doi: 10.5281/zenodo.XXXXXXX
+  # date: YYYY-MM-DD
+  authors:
+  - name: Anastassiya Yegarmina
+    orcid: 0009-0005-0791-9866
+    affiliations:
+    - Neuromatch Academy, Neuromatch, Inc.
+    roles:
+    - Conceptualization
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Software
+    - Visualization
+    - Writing - original draft
+    - Writing - review & editing
+  - name: Hamna Kaleem
+    orcid: 0009-0000-8906-3291
+    affiliations:
+    - Neuromatch Academy, Neuromatch, Inc
+    roles:
+    - Conceptualization
+    - Formal analysis
+    - Writing - review & editing
+  - name:  Zahra Samimi
+    orcid: 0009-0004-4217-2318
+    affiliations:
+    - Neuromatch Academy, Neuromatch, Inc
+    roles:
+    - Conceptualization
+    - Formal analysis
+    - Investigation
+    - Writing - review & editing
+  - name: Maleesha Karawita
+    orcid: 0009-0006-6644-3279
+    affiliations:
+    - Neuromatch Academy, Neuromatch, Inc.
+    roles:
+    - Conceptualization
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Writing - original draft
+    - Writing - review & editing
+- name: Nader Nikbakht
+    orcid:  0000-0002-9726-9115
+    affiliations:
+    - McGovern Institute for Brain Research, MIT
+    roles:
+   - Conceptualization
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Software
+    - Visualization
+    - Writing - original draft
+    - Writing - review & editing
+    
   toc:
   - file: index.md
-  id:
-  title:
-  keywords: []
-  github:
+
+  id: isp-micropublication-template
+  title: Bilateral hemispheric coupling is widespread but does not strictly predict choice encoding across the mouse brain
+  keywords:
+  - Canonical Correlation Analysis (CCA)
+  - International Brain Laboratory (IBL)
+  - Interhemispheric coupling
+  - Decision-specific lateralization
+  github: https://github.com/maleeshakarawita/Neuronova
   bibliography:
   - bib.bib
-
-site:
-  template: https://raw.githubusercontent.com/impact-scholars/myst-theme/v0.2.0/.deploy/book/template.yml
+  # downloads:
+  # - file: supplementary-material.zip
+  #   title: Supplementary Material
