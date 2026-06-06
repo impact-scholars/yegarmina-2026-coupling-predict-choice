@@ -77,7 +77,13 @@ The Swanson flatmap visualizes this dissociation ([](#fig-swanson)): coupling is
 ```{figure} figures/Figure 3.Three-panel Swanson flatmap .png
 :label: fig-swanson
 
-**Three-panel Swanson flatmap** projection of CCA bilateral coupling metrics across 27 brain regions (39 fine-grained Allen acronyms aggregated to Swanson-level parents). **Left**: bilateral coupling strength (cross-validated CCA r_peak) — strongest in hippocampal formation and midbrain. **Middle**: choice encoding in the bilateral subspace (|r_choice| at t_peak) — concentrated in prefrontal cortex (PL, ILA), posterior thalamus (PO), and deep superior colliculus. **Right**: decision fraction (|r_choice| / r_peak; thresholded at r_peak ≥ 0.5) — quantifies what proportion of bilateral coupling is decision-specific, revealing the spatial dissociation between coupling strength and choice content.
+**Three-panel Swanson flatmap** projection of CCA bilateral coupling metrics across 27 brain regions (39 fine-grained Allen acronyms aggregated to Swanson-level parents). 
+\
+**Left**: bilateral coupling strength (cross-validated CCA r_peak) — strongest in hippocampal formation and midbrain. 
+\
+**Middle**: choice encoding in the bilateral subspace (|r_choice| at t_peak) — concentrated in prefrontal cortex (PL, ILA), posterior thalamus (PO), and deep superior colliculus. 
+\
+**Right**: decision fraction (|r_choice| / r_peak; thresholded at r_peak ≥ 0.5) — quantifies what proportion of bilateral coupling is decision-specific, revealing the spatial dissociation between coupling strength and choice content.
 ```
 
 ## Choice encoding strength varied widely across regions
