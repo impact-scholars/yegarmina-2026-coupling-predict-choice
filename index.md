@@ -56,7 +56,7 @@ Temporal CCA, applied independently at each time bin with cross-validation, is r
 ```{figure} figures/Figure_1. Top 15 brain regions ranked by bilateral coupling strength.png
 :label: fig-coupling-rank
 
-Top 15 brain regions ranked by bilateral coupling strength.
+**Top 15 brain regions ranked by bilateral coupling strength** (peak r), with 95% confidence intervals. Error bars are bootstrap CIs computed from session-level r_peak values within each region. Mean coupling across the top 15 regions is r = 0.878. Subiculum (SUB) and primary motor cortex (MOs2/3) show the strongest bilateral coupling, while the ranking is dominated by hippocampal formation (SUB, CA1, DG-mo, DG-po, DG-sg) and prefrontal-thalamic structures (ILA6a, PL6a, PO, MRN).
 ```
 
 Hippocampal formation (SUB: 0.96; CA1: 0.91; DG: 0.85–0.88) and midbrain nuclei (APN: 0.89; MRN: 0.87) showed the strongest coupling; higher visual areas the weakest (Supplementary Figure 1). This heterogeneity argues against a single global synchronization mechanism and suggests an extension of the distributed coding framework [@steinmetz2019distributed] to the interhemispheric domain.
@@ -68,7 +68,7 @@ Peak coupling and peak choice encoding |r_choice| were uncorrelated across regio
 ```{figure} figures/Figure_2.Choice encoding strength.png
 :label: fig-dissociation
 
-Choice encoding strength.
+**Choice encoding strength (peak r_choice) plotted against bilateral coupling strength** (r_peak) for each brain region, colored by peak choice-encoding latency relative to movement onset (blue = pre-movement, red = post-movement). The lack of correlation between the two axes (Spearman ρ = −0.21, p = 0.17) demonstrates the spatial dissociation: regions with the highest bilateral coupling are not the strongest choice encoders, and vice versa. Latency coloring further reveals temporal heterogeneity — pre-movement encoders (PL6a, SCdg) cluster separately from post-movement encoders (PO, ILA6a, RSPd6a).
 ```
 
 Hippocampal regions had the highest coupling but the lowest decision fraction — the proportion of bilateral coupling devoted to choice encoding, defined as |r_choice| / r_peak — (CA1: 0.04; SUB: 0.06), meaning less than 6% of their bilateral synchrony related to the animal's upcoming choice. In contrast, prelimbic and infralimbic cortex had moderate coupling with the highest decision fraction (PL6a: 0.22; ILA6a: 0.20), indicating that over a fifth of their interhemispheric coordination specifically carried decision information.
@@ -77,7 +77,7 @@ The Swanson flatmap visualizes this dissociation ([](#fig-swanson)): coupling is
 ```{figure} figures/Figure 3.Three-panel Swanson flatmap .png
 :label: fig-swanson
 
-Three-panel Swanson flatmap.
+**Three-panel Swanson flatmap** projection of CCA bilateral coupling metrics across 27 brain regions (39 fine-grained Allen acronyms aggregated to Swanson-level parents). **Left**: bilateral coupling strength (cross-validated CCA r_peak) — strongest in hippocampal formation and midbrain. **Middle**: choice encoding in the bilateral subspace (|r_choice| at t_peak) — concentrated in prefrontal cortex (PL, ILA), posterior thalamus (PO), and deep superior colliculus. **Right**: decision fraction (|r_choice| / r_peak; thresholded at r_peak ≥ 0.5) — quantifies what proportion of bilateral coupling is decision-specific, revealing the spatial dissociation between coupling strength and choice content.
 ```
 
 ## Choice encoding strength varied widely across regions
@@ -87,7 +87,7 @@ The strongest encoders were SCdg (r_choice = 0.34, +75 ms), PL6a (0.26, −75 ms
 ```{figure} figures/Figure_4. Choice encoding strength.png
 :label: fig-choice-encoding
 
-Choice encoding strength.
+**Choice encoding strength** (peak r_choice) ranked across all 39 brain regions. Bars show the maximum bilateral choice correlation for each region, with the dashed red line marking the population median (0.102). Colors reflect rank order.
 ```
 
 Bilateral coupling was sustained across the trial in motor, hippocampal, and midbrain regions, with phase-dependent modulation in visual and thalamic regions ([](#fig-coupling-time)).
@@ -95,7 +95,7 @@ Bilateral coupling was sustained across the trial in motor, hippocampal, and mid
 ```{figure} figures/Figure_5. Bilateral coupling strength r(t) over time.png
 :label: fig-coupling-time
 
-Bilateral coupling strength r(t) over time.
+**Bilateral coupling strength r(t) over time, grouped by anatomical system** (motor, visual, thalamus, hippocampus, midbrain; n = number of sessions per group). Each line shows the time-resolved cross-validated CCA coupling for one region within the group. The vertical dashed line marks movement onset (t = 0). Hippocampal and midbrain regions show sustained high coupling throughout the trial, while motor, visual, and thalamic regions exhibit phase-dependent modulation around movement onset.
 ```
 
 ## Three temporal profiles identified in bilateral coupling cross-correlograms
@@ -105,7 +105,7 @@ Cross-correlograms (±500ms, 25ms resolution) revealed zero-lag dominance across
 ```{figure} figures/Figure_6. Cross-correlogram heatmap.png
 :label: fig-xcorr
 
-Cross-correlogram heatmap.
+**Cross-correlogram heatmap of bilateral canonical variates across all regions**. For each region, trial-averaged U(t) (left hemisphere) and V(t) (right hemisphere) from CCA. The yellow dashed line marks zero lag; negative lags indicate left-hemisphere lead, positive lags indicate right-hemisphere lead. Red and blue indicate positive and negative correlations, respectively, revealing distinct temporal coupling structures across the brain — sharp zero-lag peaks with oscillatory flanking in hippocampal and midbrain regions, broad sustained coupling in collicular and prefrontal regions, and asymmetric lag profiles in select association areas.
 ```
 
 # Discussions
