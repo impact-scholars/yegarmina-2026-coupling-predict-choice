@@ -1,3 +1,10 @@
+> **Archival Notice**  
+> This repository is the **permanent archival publication record** for an
+> Impact Scholars Program micropublication. The original development
+> repository is at 
+> **https://github.com/maleeshakarawita/ISP-Neuronova**  
+> This archive preserves the version of record as accepted for publication.
+
 # 🧠 Bilateral Hemispheric Coupling in the Mouse Brain
 ### *Widespread. Dissociated. Revealing.*
 
