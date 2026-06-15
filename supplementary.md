@@ -5,6 +5,8 @@ short_title: Supplementary Material
 
 ```{raw:typst}
 #set heading(numbering: none)
+#counter(figure.where(kind: "figure")).update(0)
+#set figure(numbering: n => "S" + str(n))
 ```
 
 (supplementary)=
