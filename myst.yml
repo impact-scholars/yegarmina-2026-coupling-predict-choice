@@ -62,6 +62,7 @@ project:
 
   toc:
   - file: index.md
+  - file: supplementary.md
 
   id: isp-yegarmina-2026-coupling-predict-choice
   title: Bilateral hemispheric coupling is widespread but does not strictly predict choice encoding across the mouse brain
@@ -73,3 +74,13 @@ project:
   github: https://github.com/impact-scholars/yegarmina-2026-coupling-predict-choice
   bibliography:
   - bib.bib
+
+  exports:
+  - format: typst
+    id: typst-pdf
+    template: https://github.com/impact-scholars/isp-lapreprint-typst.git
+    articles:
+    - file: index.md
+      title:
+    - file: supplementary.md
+      title:
