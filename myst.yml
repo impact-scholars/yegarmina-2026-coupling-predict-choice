@@ -4,15 +4,83 @@ extends:
 - https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.2.0/isp-micropublication-2025.yml
 
 project:
-  authors: []
+  authors:
+  - name: Anastassiya Yegarmina
+    orcid: 0009-0005-0791-9866
+    affiliations:
+    - Neuromatch Academy, Neuromatch, Inc.
+    roles:
+    - Conceptualization
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Software
+    - Visualization
+    - Writing - original draft
+    - Writing - review & editing
+  - name: Hamna Kaleem
+    orcid: 0009-0000-8906-3291
+    affiliations:
+    - Neuromatch Academy, Neuromatch, Inc
+    roles:
+    - Conceptualization
+    - Formal analysis
+    - Writing - review & editing
+  - name: Zahra Samimi
+    orcid: 0009-0004-4217-2318
+    affiliations:
+    - Neuromatch Academy, Neuromatch, Inc
+    roles:
+    - Conceptualization
+    - Formal analysis
+    - Investigation
+    - Writing - review & editing
+  - name: Maleesha Karawita
+    orcid: 0009-0006-6644-3279
+    affiliations:
+    - Neuromatch Academy, Neuromatch, Inc.
+    roles:
+    - Conceptualization
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Writing - original draft
+    - Writing - review & editing
+  - name: Nader Nikbakht
+    orcid: 0000-0002-9726-9115
+    affiliations:
+    - McGovern Institute for Brain Research, MIT
+    roles:
+    - Conceptualization
+    - Formal analysis
+    - Investigation
+    - Methodology
+    - Software
+    - Visualization
+    - Writing - original draft
+    - Writing - review & editing
+
   toc:
   - file: index.md
-  id:
-  title:
-  keywords: []
-  github:
+  - file: supplementary.md
+
+  id: isp-yegarmina-2026-coupling-predict-choice
+  title: Bilateral hemispheric coupling is widespread but does not strictly predict choice encoding across the mouse brain
+  keywords:
+  - Canonical Correlation Analysis (CCA)
+  - International Brain Laboratory (IBL)
+  - Interhemispheric coupling
+  - Decision-specific lateralization
+  github: https://github.com/impact-scholars/yegarmina-2026-coupling-predict-choice
   bibliography:
   - bib.bib
 
-site:
-  template: https://raw.githubusercontent.com/impact-scholars/myst-theme/v0.2.0/.deploy/book/template.yml
+  exports:
+  - format: typst
+    id: typst-pdf
+    template: https://github.com/impact-scholars/isp-lapreprint-typst.git
+    articles:
+    - file: index.md
+      title:
+    - file: supplementary.md
+      title:
