@@ -72,6 +72,11 @@ project:
   - Interhemispheric coupling
   - Decision-specific lateralization
   github: https://github.com/impact-scholars/yegarmina-2026-coupling-predict-choice
+  options:
+    youtube: https://youtu.be/bG0QwhbYmwc?t=4116
+  downloads:
+  - title: Seminar Presentation
+    url: https://youtu.be/bG0QwhbYmwc?t=4116
   bibliography:
   - bib.bib
 
